@@ -136,6 +136,30 @@
             },
             "referenceMechanicName": "Twister",
             "spawnOnTarget": true
+          },
+          {
+            "$type": "WaitEvent",
+            "timeToWait": 10.0
+          },
+          {
+            "$type": "SpawnEnemy",
+            "enemyName": "Bahamut",
+            "textureFilePath": "Mechanics/Resources/Bahamut.png",
+            "colorHtml": "#0a4d8b",
+            "maxHp": 10000000,
+            "hitboxSize": 3.0,
+            "rotation": 180.0,
+            "visualPosition": {
+              "x": 0.0,
+              "y": 1.2,
+              "z": 0.0
+            },
+            "visualScale": {
+              "x": 1.5,
+              "y": 2.25,
+              "z": 1.5
+            },
+            "referenceMechanicName": "BahamutStart"
           }
         ]
       }
